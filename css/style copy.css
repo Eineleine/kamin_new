@@ -1,0 +1,179 @@
+@import url(footer.css);
+@import url(header.css);
+@import url(main__backgrounds.css);
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Etna';
+    src: url('../fonts/etna-free-font.otf');
+}
+
+@font-face {
+    font-family: 'Cimero';
+    src: url('../fonts/CimeroPro.otf');
+}
+
+@font-face {
+    font-family: 'Mistica';
+    src: url('../fonts/MusticaproSemibold.otf');
+}
+
+@font-face {
+    font-family: 'GlorySignaturePersonalUse';
+    src: url('../fonts/GlorySignaturePersonalUse.otf');
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/mramor.jpg);
+    background-repeat: repeat;
+    background-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner {
+    background-image: url(../img/bricks_01.png);
+    background-repeat: repeat;
+    background-size: 100%;
+    width: 100%;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    padding-bottom: 20px;
+}
+
+.row_about_info {
+    text-align: justify;
+    color: white;
+    padding: 20px 0px 0px 0px;
+}
+
+.h1_main {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.p_main {
+    margin: 20px auto;
+}
+
+.main__index {
+    background-image: url(../img/bricks_01.png);
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.main__head {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;  
+}
+
+table {
+    margin: 30px 0px;
+}
+
+.main_text_about {
+    width: 60%;
+    background-color: #161923 !important;
+}
+
+.main_text_about_body {
+    margin-bottom: 40px;
+}
+
+.index_main_img {
+    width: 350px;
+    border-radius: 100px;
+    box-shadow: 0 0 30px rgba(253, 242, 242, 0.5);
+}
+
+.conteiner_body {
+    background-color: #161923;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(253, 242, 242, 0.5);
+    color: white;
+    padding: 10px;
+}
+.main__body {
+    width: 100%;
+    padding: 0px 30px;
+    background-color: #161923;
+    color: white;
+}
+
+.card-main {
+    margin-bottom: 30px;
+    box-shadow: 0 0 30px rgba(253, 242, 242, 0.5);
+    background-color: #161923 !important;
+    border: 2px solid black;
+}
+
+.main_section{
+    margin: 35px 0px;
+}
+
+.main_card_group {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.card_group_back {
+    background-color: #161923 !important;
+    
+}
+.card-body {
+    box-shadow: 0 0 30px rgba(253, 242, 242, 0.5);
+}
+
+.img_articles {
+    width: 150px;
+}
+
+.gallery_barbequ {
+    width: 60%;
+    margin: auto;
+    box-shadow: 0 0 30px rgba(253, 242, 242, 0.5);
+}
+
+.p_gallery {
+    padding: 0;
+    margin: auto;
+}
+
+.p_blockquote {
+    text-align: justify;
+    font-style: italic;
+}
+
+.a_price {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.a_price:hover {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.img_articles {
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(253, 242, 242, 0.5);
+    margin: 50px 0px;
+    width: 50%;
+}

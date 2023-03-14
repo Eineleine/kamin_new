@@ -1,0 +1,33 @@
+footer {
+    background-image: url("../img/mramor.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.row-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer__h2 {
+    font-size: 18px;
+    font-family: 'Etna';
+    text-transform: uppercase;
+    padding-left: 31px;
+    color: aliceblue;
+    padding-bottom: 10px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.footer__text {
+    font-family: 'Roboto';
+    color: aliceblue;
+}
