@@ -26,6 +26,11 @@ a {
     width: 100%;
     float: left;
 }
+
+.p_gallery {
+    color: #fff;
+    margin-top: 15px;
+}
     
 .h1_gallery {
     margin-top: 25px;
@@ -50,8 +55,9 @@ a {
 }
     
 .page_container {
-    max-width: 960px;
+    max-width: 900px;
     margin: 50px auto;
+
 }
   
 .immersive_slider .is-slide .content .h2_gallery{
@@ -82,3 +88,11 @@ a {
     body .one .bsa_it_p { display: none; }
     body #bsap_aplink, body #bsap_aplink:hover { display: block; font-size: 10px; margin: 12px 15px 0; text-align: center; }
 
+    @media screen and (max-width: 767px) {
+        .page_container {
+            max-width: 760px;
+            margin: 0 auto;
+        }
+    }
+    
+    

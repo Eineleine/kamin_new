@@ -7,13 +7,14 @@ footer {
 .row-footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-top: 20px;
     margin-bottom: 20px;
 }
 
 .footer__h2 {
     font-size: 18px;
+    letter-spacing: 3px;
     font-family: 'Etna';
     text-transform: uppercase;
     padding-left: 31px;

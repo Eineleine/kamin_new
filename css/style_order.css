@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Etna';
+    src: url('../fonts/etna-free-font.otf');
+}
+
+@font-face {
+    font-family: 'Cimero';
+    src: url('../fonts/CimeroPro.otf');
+}
+
+@font-face {
+    font-family: 'Mistica';
+    src: url('../fonts/MusticaproSemibold.otf');
+}
+
+@font-face {
+    font-family: 'GlorySignaturePersonalUse';
+    src: url('../fonts/GlorySignaturePersonalUse.otf');
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/mramor.jpg);
+    background-repeat: repeat;
+    background-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.titles{
+	width: 140px;
+	float: left;
+}
+
+#form_message{
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 5px;
+	margin:10px;
+	padding: 10px;
+	width: 320px;
+	height:330px;
+}
+
+#form_message input,textarea{
+	border-radius: 5px;
+	width: 170px;
+}
+
+#submit{
+	height: 50px;
+	float: right;
+}
+
+#form_message h2{
+	text-align: center;
+}

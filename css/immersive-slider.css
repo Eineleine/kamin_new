@@ -4,8 +4,9 @@ Class Definitions
 
 .immersive_slider {
   background: #161923;
-  max-width: 100%;
+  max-width: 80%;
   height: 800px;
+  margin: auto;
   opacity: .9;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -16,17 +17,20 @@ Class Definitions
   box-shadow: 0 0 30px rgba(253, 242, 242, 0.5);
 }
 .immersive_slider .is-slide  {
-  display: table;
+  display: flex;
   height: 100%;
   width: 100%;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  padding: 50px 100px;
+
   position: absolute;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 .immersive_slider .is-slide .image  {
-  float: none;
+ /* float: none;*/
   width: 60%;
   padding-left: 10px;
   box-sizing: border-box;
@@ -111,7 +115,7 @@ Class Definitions
 .is-container .is-background img{
   width: 100%;
   height: 100%;
-  left: 0;
+  /*left: 0;*/
   position: relative;
 }
 
@@ -186,4 +190,15 @@ Class Definitions
 
 .is-prev {
   left: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .immersive_slider .is-slide .image  {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .immersive_slider .is-slide .image  {
+    width: 90%;
+  }
 }

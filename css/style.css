@@ -1,6 +1,5 @@
 @import url(footer.css);
 @import url(header.css);
-@import url(main__backgrounds.css);
 
 @font-face {
     font-family: 'Roboto';
@@ -118,6 +117,14 @@ table {
     border: 2px solid black;
 }
 
+.input-form {
+    margin-bottom: 30px;
+    margin-top: 15px;
+    box-shadow: 0 0 20px rgba(253, 242, 242, 0.5);
+    width: 500px;
+    border: 2px solid white;
+}
+
 .main_section{
     margin: 35px 0px;
 }
@@ -181,4 +188,140 @@ table {
 .content-box-img {
     border-radius: 20px;
     box-shadow: 0 0 30px rgba(253, 242, 242, 0.5);
+    width: 50%;
+}
+
+@media screen and (max-width: 767px) {
+    .main__head {
+        flex-direction: column;
+        align-items: center;
+    }
+    .h1_main {
+        font-size: 30px;
+    }
+    .h2_main {
+        font-size: 20px;
+    }
+    .p_main {
+        font-size: 12px;
+    }
+    .item_a {
+        font-size: 12px;
+    }
+    .main__head_h1 {
+        font-size: 36px;
+    }
+    .row-footer {
+        flex-direction: column;
+    }
+    .travelling {
+        display: none;
+    }
+    .footer__text {
+        font-size: 15px;
+    }
+    .about__partners {
+        flex-direction: column;
+    }
+    .about__main__head_p {
+        font-size: 12px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .about__main_h1 {
+        margin-bottom: 80px;
+    }
+    .main__travelling_h1 {
+        font-size: 90px;
+    }
+    .content-box-text {
+        text-align: justify;
+    }
+    .main_text_about {
+        margin-top: 45px;
+        width: 100%;
+    }
+    .main_card_group {
+        width: 100%;
+    }
+    .container-fluid {
+        justify-content: center !important;
+    }
+    .banner {
+        display: none;
+    }
+    .footer__h2 {
+        text-align: center;
+    }
+        
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .header__topmenu_contacts {
+        width: 60%;
+    }
+    .header__logo {
+        display: none;
+    }
+    .header__menu {
+        width: 100%;
+    }
+    .item_a {
+        font-size: 12px;
+    }
+    .main__head_h1 {
+        font-size: 76px;
+    }
+    .row-footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .footer__text {
+        font-size: 15px;
+    }
+    .about__partners {
+        flex-direction: column;
+    }
+    .about__main__head_p {
+        font-size: 12px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .about__main_h1 {
+        margin-bottom: 80px;
+    }
+    .footer-list {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .publication, .travelling {
+        width: 100%;
+    }
+    .main__travelling_h1 {
+        font-size: 90px;
+    }
+    .content-box-text {
+        text-align: justify;
+    }
+    .container-fluid {
+        justify-content: center !important;
+    }
+    .main__head {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main_text_about {
+        margin-top: 45px;
+        width: 100%;
+    }
+    .main_card_group {
+        width: 100%;
+        margin: 20px auto;
+    }
+    .menu-list-top {
+        width: 100%;
+    }
+    .footer__h2 {
+        text-align: center;
+    }
 }
